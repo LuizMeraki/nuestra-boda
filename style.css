@@ -236,14 +236,14 @@ a {
 }
 
 .hosting-suggestion-section ul li a {
-  color: #893d3e;
+  color: #4f936e;
   font-style: italic;
   text-decoration: underline;
   transition: .3s;
 }
 
 .hosting-suggestion-section ul li a:hover {
-  color: #531b1c;
+  color: #2e5740;
 }
 
 /* RING SECTION */
