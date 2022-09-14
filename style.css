@@ -1,0 +1,295 @@
+* {
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f1f0dc;
+}
+
+section {
+  width: 100%;
+  padding: 1em 0 2.5em 0;
+}
+
+section:first-of-type {
+  padding: 0;
+}
+
+/* GLOBAL */
+
+h2 {
+  color: #531b1c;
+  max-width: 600px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin: 0 auto 1em auto;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #274d38;
+  font-size: 1em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.max-width {
+  padding: 0 1.3em;
+}
+
+/* BANNER SECTION */
+
+.content-titles {
+  font-size: 1.2em;
+  padding: 3em 0;
+}
+
+.background-banner {
+  padding-top: 3em;
+}
+
+.banner-section .content-titles h2 {
+  margin: 0 auto;
+}
+
+.banner-section .content-titles {
+  width: 90%;
+  max-width: 600px;
+  margin: 0em auto;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #00000088;
+}
+
+.banner-section .content-titles h2 {
+  font-size: 2em;
+  color: #fff;
+}
+
+.banner-section .content-titles p {
+  color: #fff;
+}
+
+/* INVITE SECTION */
+
+.invite-section .text-content {
+  margin: 0 auto;
+}
+
+.invite-section .content-titles span {
+  color: #531b1c;
+  font-size: 1.3em;
+  font-weight: 600;
+  display: block;
+}
+
+.flor-1 {
+  width: 70px;
+  transform: rotate(15deg);
+}
+
+.flor-2 {
+  width: 100px;
+}
+
+.background-banner {
+  height: 100vh;
+  background-image: url('./assets/1_foto_casal.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-content {
+  margin: 2em auto;
+}
+
+.text-content p {
+  margin: 1.3em auto;
+}
+
+.full-img-section img {
+  width: 85%;
+  max-width: 450px;
+  margin-bottom: 1.2em;
+}
+
+.mapa-icon {
+  width: 50px;
+}
+
+/* LOCATION SECTION */
+
+.local-content {
+  margin-top: 2.5em;
+}
+
+.local-content span {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.map-link,
+.whatsapp-link {
+  color: #531b1c;
+  text-transform: uppercase;
+  padding: .2em .8em;
+  border: .1em solid #531b1c;
+  border-radius: .3em;
+  transition: .3s;
+}
+
+.map-link:hover,
+.whatsapp-link:hover {
+  color: #fff;
+  background-color: #531b1c;
+}
+
+/* BACKGROUND SECTION */
+
+.background-section {
+  height: 1000px;
+  background-image: url('./assets/2_foto_casal.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background-section .max-width {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.float-card {
+  max-width: 400px;
+  background-color: #00000088;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.float-card p {
+  color: #fff;
+  text-align: center;
+}
+
+.cartao-icon {
+  width: 45px;
+}
+
+/* CONTACT-SECTION */
+
+.whatsapp-icon {
+  width: 25px;
+}
+
+.whatsapp-link {
+  width: 175px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whatsapp-confirmation-content p {
+  margin-bottom: 1.5em;
+}
+
+/* HOSTING SUGGESTION SECTION */
+
+.hosting-suggestion-section .text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.hosting-suggestion-section .img-icon img {
+  width: 50px;
+}
+
+.hosting-suggestion-section ul {
+  color: #274d38;
+  font-family: 'Poppins', sans-serif;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hosting-suggestion-section ul li {
+  width: fit-content;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.main-list-items {
+  color: #531b1c;
+  font-weight: 600;
+}
+
+.hosting-suggestion-section ul li a {
+  color: #893d3e;
+  font-style: italic;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+.hosting-suggestion-section ul li a:hover {
+  color: #531b1c;
+}
+
+/* RING SECTION */
+
+.ring-container img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 900px) {
+  h2 {
+    font-size: 1.8em;
+  }
+
+  p,
+  li {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .background-banner {
+    height: calc(100vh + 200px);
+  }
+}
+
+@media (max-width: 468px) { 
+  .invite-section .content-titles span {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 415px) {
+  .banner-section .content-titles h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 370px) {
+  .invite-section .content-titles span {
+    font-size: .850em;
+  }
+  .contact-section .text-content h2,
+  .hosting-suggestion-section .content-titles h2 {
+    font-size: 1.1em;
+  }
+}
