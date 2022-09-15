@@ -236,6 +236,10 @@ p {
   font-weight: 600;
 }
 
+.main-list-items:first-of-type {
+  margin-bottom: 1.1em;
+}
+
 .hosting-suggestion-section ul li a {
   color: #4f936e;
   font-style: italic;
