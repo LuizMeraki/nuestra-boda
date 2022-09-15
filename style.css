@@ -1,4 +1,5 @@
 * {
+  font-family: 'Bellota', Arial, Helvetica, sans-serif;
   text-align: center;
   text-decoration: none;
   margin: 0;
@@ -21,25 +22,25 @@ section:first-of-type {
 }
 
 /* GLOBAL */
+@font-face {
+  font-family: 'samantha';
+  src: url('./assets/fonts/samantha/samantha.ttf') format('truetype');
+}
 
 h2 {
   color: #531b1c;
+  font-size: 2em;
+  font-family: 'samantha', Arial, Helvetica, sans-serif;
+  font-weight: normal;
   max-width: 600px;
-  text-transform: uppercase;
-  font-size: 1.3em;
   margin: 0 auto 1em auto;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
   color: #274d38;
   font-size: 1em;
   max-width: 500px;
   margin: 0 auto;
-}
-
-a {
-  font-family: 'Poppins', sans-serif;
 }
 
 .max-width {
@@ -67,12 +68,12 @@ a {
   margin: 0em auto;
   padding: 1em;
   border-radius: 1em;
-  background-color: #00000088;
+  background-color: #ffffff88;
 }
 
 .banner-section .content-titles h2 {
   font-size: 2em;
-  color: #fff;
+  color: #531b1c;
 }
 
 .banner-section .content-titles p {
@@ -256,10 +257,6 @@ a {
 /* MEDIA QUERY */
 
 @media (min-width: 900px) {
-  h2 {
-    font-size: 1.8em;
-  }
-
   p,
   li {
     font-size: 1.1em;
@@ -284,12 +281,12 @@ a {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 466px) {
   .invite-section .content-titles span {
     font-size: .850em;
   }
   .contact-section .text-content h2,
   .hosting-suggestion-section .content-titles h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 }
