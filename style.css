@@ -119,7 +119,7 @@ p {
 }
 
 .full-img-section img {
-  width: 85%;
+  width: 100%;
   max-width: 450px;
   margin-bottom: 1.2em;
 }
